@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my personal portfolio for Coding Dojo">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Daniel Shoemaker</h1>
+    <img id="Daniel" src="images/DanielShoemakerPhoto.jpg" alt="Daniel Shoemaker Photo">
+
+    <div>
+        <ul id="icons">
+            <li><img class="logos" src="images/GitHub.png" alt="GitHub logo"><label class="logoLabel"><a
+                        href="https://github.com/2003sl500/CodingDojo-Files" target="_blank">My GitHub</a></label></li>
+            <li><img class="logos" src="images/LinkedIn.png" alt="LinkedIn logo"><label class="logoLabel"><a
+                        href="https://www.linkedin.com/in/daniel-shoemaker-630ab811a/" target="_blank">My
+                        LinkdIn</a></label></li>
+            <li><img class="logos" src="images/email.jpg" alt="Email logo"><label class="logoLabel"><a
+                        href="mailto:danielshoe@charter.net">My Email</a></label></li>
+        </ul>
+    </div>
+
+    <h3>Technologies</h3>
+    <table>
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Espress</td>
+            <td>MySQL</td>
+            <td>Ajax</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>UnitTest</td>
+            <td>React</td>
+            <td></td>
+            <td>Rest</td>
+        </tr>
+    </table>
+
+    <h3 id="snakes">Social Snakes</h3>
+    <img class="logos" src="images/greaterLessThan.jpg" alt="Less than Greater than symbol">
+    <p>Social Media App Made in Python - code | deployed</p>
+
+    <h3 id="contacts">Contact Me</h3>
+    <form action="/process" method="POST">
+        <div id="personalInfo">
+            <label>Name: </label>
+            <input type="text" name="Name">
+            <label>Email: </label>
+            <input type="email" name="Email">
+        </div>
+        <div id="messageLabel">
+            <label>Message: </label>
+            <textarea name="message" id="message" cols="30" rows="2"></textarea>
+        </div>
+        <input type="submit" id="submit" value="Send Message">
+
+    </form>
+
+</body>
+
+</html>

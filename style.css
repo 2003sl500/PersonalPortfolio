@@ -1,0 +1,66 @@
+body {
+    margin-left: 20px;
+}
+
+#Daniel {
+    width: 100px;
+}
+
+#snakes {
+    margin-top: 20px;
+} 
+
+#contacts {
+    margin-top: 30px;
+}
+
+#icons {
+    margin-left: -45px;
+}
+
+ul#icons li {
+    display:inline;
+    margin-top: 20px;
+}
+
+.logos {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.logoLabel {
+    margin-right: 20px;
+}
+
+table, td {
+    border-style:inset;
+    border-width: 2px;
+    padding: 5px;
+}
+
+th {
+    border-style: double;
+    border-color: firebrick;
+    padding: 10px;
+}
+
+#personalInfo {
+    margin-top: 10px;
+}
+
+#messageLabel {
+    margin-top: 7px;
+}
+
+#submit {
+    margin-top: 10px;
+            margin-left: 0px;
+            margin-top: 30px;
+            background-color: rgb(177, 170, 167);
+            font-weight: bold;
+            padding: 5px;
+            border: 2px;
+            border-radius: 10px;
+            border-style:groove;
+
+}
